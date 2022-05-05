@@ -1,0 +1,11 @@
+1. A windows C# application developed you can find the setup on RapidPublished folder or you can use RapidEvaluation source code.
+
+2. The application uses.Net 6
+
+Following trigger and procedures created in the database
+1. AR_CUSTAFterUpdate   - the trigger for logging the update record from AR_CUST to AR_CUST_NOTE
+
+2. getARCust procedure created to fetch the data from AR_CUST and load it into the data grid view
+3. UPARCust procedure created to update the record
+4. getSalesDetail procedure created to get data from PS_TKT_HIST and PS_TKT_HIST_LIN and store the result into the JSON file using C#. 
+However, there might be missed column picked as the field names are abbreviated making it difficult to understand I tried my best to pick the correct one.
